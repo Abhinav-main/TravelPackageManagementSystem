@@ -25,6 +25,8 @@ A block diagram indicating the interaction between different sub-blocks.
 
 **2. Lower Level Diagram**
 A UML class diagram illustrating all the classes implemented, with suitable attributes and methods representing the specified requirements.
+
+
 <img width="458" alt="image" src="https://github.com/Abhinav-main/TravelPackageManagementSystem/assets/56387875/b308f37b-d03e-4fee-b28b-375c1aaf00aa">
 
 **3. Implementation**
@@ -33,16 +35,7 @@ The project is implemented in Java, following SOLID design principles and clean 
 **4. Unit Testing**
 Unit test cases are implemented for each class using the JUnit framework, ensuring the correctness and reliability of the code.
 
-Getting Started
-To run the project locally, follow these steps:
-
-Compile and run the Java application:
-
-bash
-Copy code
-javac com/abhinav/travelpackages/TravelPackagesManagementSystemApplication.java
-java com.abhinav.travelpackages.TravelPackagesManagementSystemApplication
 Feel free to explore the code, diagrams, and unit tests to understand the implementation details.
 
-Contributors
+**Contributors**
 Abhinav Verma
