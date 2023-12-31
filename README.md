@@ -1,2 +1,3 @@
-UML class diagram
-<img width="458" alt="image" src="https://github.com/Abhinav-main/TravelPackageManagementSystem/assets/56387875/78675f8d-706e-41c4-9870-18a84e92f69a">
+UML class diagram:
+
+<img width="458" alt="image" src="https://github.com/Abhinav-main/TravelPackageManagementSystem/assets/56387875/b308f37b-d03e-4fee-b28b-375c1aaf00aa">
