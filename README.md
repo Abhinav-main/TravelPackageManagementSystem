@@ -65,6 +65,7 @@ A UML class diagram illustrating all the classes implemented, with suitable attr
 
 <img width="458" alt="image" src="https://github.com/Abhinav-main/TravelPackageManagementSystem/assets/56387875/b308f37b-d03e-4fee-b28b-375c1aaf00aa">
 
+
 **3. Implementation**
 The project is implemented in Java, following SOLID design principles and clean code guidelines. Each class provides necessary functionalities for managing travel packages, passengers, and activities.
 
@@ -74,4 +75,5 @@ Unit test cases are implemented for each class using the JUnit framework, ensuri
 Feel free to explore the code, diagrams, and unit tests to understand the implementation details.
 
 **Contributors**
+
 Abhinav Verma
