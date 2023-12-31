@@ -55,6 +55,7 @@ Prints details of activities with available spaces.
 
 
 Sub-Tasks
+
 **1. Higher Level Diagram**
 A block diagram indicating the interaction between different sub-blocks.
 
