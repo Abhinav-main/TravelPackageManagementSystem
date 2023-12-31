@@ -1,25 +1,59 @@
-**Travel Agency Management System**
+**Travel Package Management System**
 
-This repository contains the implementation of a software system designed for travel agencies to efficiently manage their travel packages, itineraries, and passengers. The system is implemented in Java, adhering to the specified guidelines and providing the following key features:
+Welcome to the Travel Agency Management System repository! This software system is designed to help travel agencies efficiently organize their travel packages, itineraries, and passenger information. The system is implemented in Java, adhering to the specified guidelines. Below is an overview of the key features and how to get started.
 
-**Specifications**
-Travel Package Management:
+**Overview**
+**Classes**
 
-Each travel package has a name, passenger capacity, itinerary (list of destinations), and a list of its passengers.
-Destinations include a name and a list of available activities.
-Activities are defined by a name, description, cost, and capacity, available at specific destinations.
-Passenger Categories:
+**Activity**
 
-Passengers are categorized as standard, gold, or premium.
-Standard passengers have a balance, deducting the activity cost from their balance during sign-up.
-Gold passengers receive a 10% discount on activity costs, deducted from their balance.
-Premium passengers can sign up for activities for free.
-Functionality:
+Represents an activity available at a destination.
+Attributes: name, description, cost, capacity.
 
-Print itinerary of the travel package, including package name, destinations, and details of activities available at each destination.
-Print the passenger list of the travel package, including package name, passenger capacity, number of enrolled passengers, and details of each passenger.
-Print details of an individual passenger, including name, passenger number, balance (if applicable), and a list of signed-up activities.
-Print details of activities with available spaces, including the number of spaces available.
+**Destination**
+
+Represents a destination with a list of available activities.
+Attributes: name, activities (list).
+
+**GoldPassenger**
+
+Extends Passenger class for gold category passengers.
+Implements methods for signing up for an activity with a 10% discount.
+
+**Passenger**
+
+Represents a passenger with basic information and signed-up activities.
+Attributes: passengerName, passengerNumber, balanceAmount, signedUpActivities (map).
+
+**PremiumPassenger**
+
+Extends Passenger class for premium category passengers.
+Implements methods for signing up for activities for free.
+
+**TravelPackage**
+
+Represents a travel package with a name, capacity, destinations, and passengers.
+Attributes: name, capacity, destinations (list), passengers (list).
+
+**TravelPackagesManagementSystemApplication**
+
+Main class for running the application.
+Includes a sample scenario in the main method.
+Features
+
+**Print Itinerary**
+
+Prints the travel package itinerary with destination details and available activities.
+
+**Print Passenger Details**
+
+Prints the passenger list for a travel package, including individual details.
+
+**Print Activity Spaces**
+
+Prints details of activities with available spaces.
+
+
 Sub-Tasks
 **1. Higher Level Diagram**
 A block diagram indicating the interaction between different sub-blocks.
